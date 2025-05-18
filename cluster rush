@@ -1,41 +1,73 @@
-<html lang="en-us"><head></head><body class="template"><module>
-<content type="html"><!--[CDATA[
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link href="https://cdn.jsdelivr.net/gh/classrooms-1/google.com@main/TemplateData/style.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/gh/classrooms-1/google.com@main/TemplateData/UnityProgress.js" type="text/javascript"></script>
+  <style>
+    body, html {
+      background-color: black;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
 
+    #canvas {
+      background-color: black;
+      display: block;
+      margin: auto;
+    }
 
-<!DOCTYPE html-->
+    #loadingImage {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 20px;
+      width: 75%;
+      z-index: 1000;
+    }
 
-  
-    <meta charset="utf-8">
-    <meta name="robots" content="noindex, nofollow">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <link href="https://cdn.jsdelivr.net/gh/classrooms-1/google.com@main/TemplateData/style.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/gh/classrooms-1/google.com@main/&quot;TemplateData/UnityProgress.js&quot;" type="text/javascript"></script>
-  
-  
-    <div class="template-wrap clear">
-      <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="633" width="822"></canvas>
-    </div>
-    <script type="text/javascript">
-  var Module = {
-    TOTAL_MEMORY: 268435456,
-    errorhandler: null,
-    compatibilitycheck: null,
-    backgroundColor: "#222C36",
-    splashStyle: "Dark",
-    dataUrl: "https://cdn.jsdelivr.net/gh/classrooms-1/google.com@main/Release/NG.data",
-    codeUrl: "https://cdn.jsdelivr.net/gh/classrooms-1/google.com@main/Release/NG.js",
-    asmUrl: "https://cdn.jsdelivr.net/gh/classrooms-1/google.com@main/Release/NG.asm.js",
-    memUrl: "https://cdn.jsdelivr.net/gh/classrooms-1/google.com@main/Release/NG.mem",
-  };
-    </script>
-    <script src="https://cdn.jsdelivr.net/gh/classrooms-1/google.com@main/Release/UnityLoader.js"></script>
+    /* Hide Unity progress elements */
+    .progress, .logo, .fullscreen {
+      display: none !important;
+    }
+  </style>
+</head>
+<body class="template">
+  <div class="template-wrap clear">
+    <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="633" width="822"></canvas>
+  </div>
 
+  <!-- Custom loading image -->
+  <img id="loadingImage" src="https://github.com/Instel12/Gameroom-04-Backend/blob/main/gameroom.png?raw=true" alt="Loading...">
 
-<style>
-body{
-background-color:black;
-}
-</style>
-<img style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); padding: 20px; width: 75%;" src="https://github.com/Instel12/Gameroom-04-Backend/blob/main/gameroom.png?raw=true">
-</content>
-</moduleprefs></module><script src="blob:https://1013277365-atari-embeds.googleusercontent.com/9533f63b-3f15-4317-9fca-8d9fd781db7e"></script><script src="blob:https://1013277365-atari-embeds.googleusercontent.com/748bc134-0a2e-4aca-b710-70402e4d4825"></script></body></html>
+  <script type="text/javascript">
+    var Module = {
+      TOTAL_MEMORY: 268435456,
+      errorhandler: null,
+      compatibilitycheck: null,
+      backgroundColor: "#000000", // black background for Unity
+      splashStyle: "Dark",
+      dataUrl: "https://cdn.jsdelivr.net/gh/classrooms-1/google.com@main/Release/NG.data",
+      codeUrl: "https://cdn.jsdelivr.net/gh/classrooms-1/google.com@main/Release/NG.js",
+      asmUrl: "https://cdn.jsdelivr.net/gh/classrooms-1/google.com@main/Release/NG.asm.js",
+      memUrl: "https://cdn.jsdelivr.net/gh/classrooms-1/google.com@main/Release/NG.mem",
+      onRuntimeInitialized: function () {
+        // Hide the image when Unity has fully loaded
+        document.getElementById('loadingImage').style.display = 'none';
+      }
+    };
+
+    // Fallback to hide image after 3 seconds (in case the Unity loader takes too long)
+    setTimeout(function () {
+      var img = document.getElementById('loadingImage');
+      if (img) img.style.display = 'none';
+    }, 3000);
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/gh/classrooms-1/google.com@main/Release/UnityLoader.js"></script>
+</body>
+</html>
