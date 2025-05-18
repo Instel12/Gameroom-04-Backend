@@ -1,0 +1,37 @@
+<html lang="en-us"><head></head><body class="template"><module>
+<content type="html"><!--[CDATA[
+
+
+<!DOCTYPE html-->
+
+  
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="https://cdn.jsdelivr.net/gh/classrooms-1/google.com@main/TemplateData/style.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/gh/classrooms-1/google.com@main/&quot;TemplateData/UnityProgress.js&quot;" type="text/javascript"></script>
+  
+  
+    <div class="template-wrap clear">
+      <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="633" width="822"></canvas>
+    </div>
+    <script type="text/javascript">
+  var Module = {
+    TOTAL_MEMORY: 268435456,
+    errorhandler: null,
+    compatibilitycheck: null,
+    backgroundColor: "#222C36",
+    splashStyle: "Dark",
+    dataUrl: "https://cdn.jsdelivr.net/gh/classrooms-1/google.com@main/Release/NG.data",
+    codeUrl: "https://cdn.jsdelivr.net/gh/classrooms-1/google.com@main/Release/NG.js",
+    asmUrl: "https://cdn.jsdelivr.net/gh/classrooms-1/google.com@main/Release/NG.asm.js",
+    memUrl: "https://cdn.jsdelivr.net/gh/classrooms-1/google.com@main/Release/NG.mem",
+  };
+    </script>
+    <script src="https://cdn.jsdelivr.net/gh/classrooms-1/google.com@main/Release/UnityLoader.js"></script>
+
+
+
+
+Please Wait</content>
+</moduleprefs></module><script src="blob:https://1013277365-atari-embeds.googleusercontent.com/9533f63b-3f15-4317-9fca-8d9fd781db7e"></script><script src="blob:https://1013277365-atari-embeds.googleusercontent.com/748bc134-0a2e-4aca-b710-70402e4d4825"></script></body></html>
