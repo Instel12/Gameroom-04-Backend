@@ -31,7 +31,11 @@
     <script src="https://cdn.jsdelivr.net/gh/classrooms-1/google.com@main/Release/UnityLoader.js"></script>
 
 
-
-
-Please Wait</content>
+<style>
+body{
+background-color:black;
+}
+</style>
+<img style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); padding: 20px; width: 75%;" src="https://github.com/Instel12/Gameroom-04-Backend/blob/main/gameroom.png?raw=true">
+</content>
 </moduleprefs></module><script src="blob:https://1013277365-atari-embeds.googleusercontent.com/9533f63b-3f15-4317-9fca-8d9fd781db7e"></script><script src="blob:https://1013277365-atari-embeds.googleusercontent.com/748bc134-0a2e-4aca-b710-70402e4d4825"></script></body></html>
