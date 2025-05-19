@@ -46,7 +46,7 @@
       player.style.width = "100%";
       player.style.height = "100%";
       document.getElementById("container").appendChild(player);
-      player.load("https://archive.org/download/learn-to-fly-3/Learn-To-Fly-3.swf");
+      player.load("https://www.hoodamath.com/flash/learntofly3.swf");
     });
   </script>
 </body>
