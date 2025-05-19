@@ -46,7 +46,7 @@
       player.style.width = "100%";
       player.style.height = "100%";
       document.getElementById("container").appendChild(player);
-      player.load("https://github.com/selenite-cc/flasharchive/raw/refs/heads/main/Bloxorz.swf");
+      player.load("https://swfdirect.weebly.com/uploads/2/7/4/4/27449221/bloxorz.swf");
     });
   </script>
 </body>
