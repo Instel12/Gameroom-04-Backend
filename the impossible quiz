@@ -46,7 +46,7 @@
       player.style.width = "100%";
       player.style.height = "100%";
       document.getElementById("container").appendChild(player);
-      player.load("https://dagobah.net/flash/download/The_Impossible_Quiz.swf");
+      player.load("https://gswitch3.github.io/g8/the-impossible-quiz/impossible_quiz1.swf");
     });
   </script>
 </body>
