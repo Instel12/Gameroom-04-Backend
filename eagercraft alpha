@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)https://eaglercraft.com/mc/a1.2.6/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Google tag (gtag.js) -->
+<script async="" src="./Minecraft Alpha 1.2.6_files/js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-64TQKQ7TWQ');
+</script>
+<script type="text/javascript" src="./Minecraft Alpha 1.2.6_files/loader.js.download"></script>
+<script type="text/javascript">
+window.__eaglercraftLoaderClient = {
+	container: "game_frame",
+	name: "Minecraft Alpha 1.2.6",
+	file: "net.peytonplays585.minecraft.a1_2_6",
+	cid: "bafybeihwzghrppvbzru2swx7xesxrfe7gq6gngwchuordmhhnmosx3ax6a",
+	path: "",
+	dlSize: 5377251,
+	gzip: true
+};
+</script>
+<script type="text/javascript" src="blob:https://eaglercraft.com/5e4e987a-6d71-4470-a9c1-3b0a35f2f83e"></script></head>
+<body style="margin:0px;width:100vw;height:100vh;overflow:hidden;overflow-x:hidden;overflow-y:hidden;" id="game_frame">
+
+
+<canvas width="1360" height="633" id="deevis589723589" style="width: 100%; height: 100%; image-rendering: pixelated;"></canvas></body></html>
