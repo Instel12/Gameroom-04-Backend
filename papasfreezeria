@@ -46,7 +46,7 @@
       player.style.width = "100%";
       player.style.height = "100%";
       document.getElementById("container").appendChild(player);
-      player.load("https://cdn.jsdelivr.net/gh/LoloNiz/Pizzeria@25bdd5a9a06bf15786d3299b5a8f29555ca21491/papasfreezeria.swf");
+      player.load("https://cdn.jsdelivr.net/gh/papamamia/70099@main/papasfreezeria.swf");
     });
   </script>
 </body>
