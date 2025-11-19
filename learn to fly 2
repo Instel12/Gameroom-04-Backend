@@ -46,7 +46,7 @@
       player.style.width = "100%";
       player.style.height = "100%";
       document.getElementById("container").appendChild(player);
-      player.load("https://ttfgames.weebly.com/uploads/1/1/9/5/11950190/learntofly3.swf");
+      player.load("https://cadawnofthedead.github.io/learn-to-fly-2/learn-to-fly-2-11967.swf");
     });
   </script>
 </body>
