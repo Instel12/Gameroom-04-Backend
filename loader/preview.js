@@ -1,6 +1,6 @@
     async function loadContent() {
       try {
-        const response = await fetch('https://raw.githubusercontent.com/Instel12/Gameroom-04-Backend/refs/heads/main/Escape%20Road');
+        const response = await fetch(ghrawurl);
         const text = await response.text();
         document.open();
         document.write(text);

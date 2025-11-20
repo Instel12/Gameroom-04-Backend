@@ -1,6 +1,6 @@
 {
     "Loader": {
-        "preview": "url",
+        "preview": "https://raw.githubusercontent.com/Instel12/Gameroom-04-Backend/refs/heads/beta/games/loader/preview.html",
         "fullscreen": "url"
     },
     "Games": {
